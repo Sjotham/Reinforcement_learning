@@ -3,6 +3,7 @@ import random
 import argparse
 from FourRooms import FourRooms
 
+
 # Function to execute the Q-learning logic
 def main():
     # Argument parser setup
@@ -96,6 +97,7 @@ def main():
 
     # Visualize the path the agent took
     fourRoomsObj.showPath(-1)
+
 
 # Entry point
 if __name__ == "__main__":
